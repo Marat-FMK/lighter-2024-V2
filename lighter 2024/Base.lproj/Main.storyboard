@@ -36,11 +36,20 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Button"/>
+                                <connections>
+                                    <action selector="startButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lj7-a3-Ecm"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="greenLightView" destination="clj-5s-jpS" id="7H6-9y-xug"/>
+                        <outlet property="redLightView" destination="aV8-1B-VEi" id="a5B-Uw-eRs"/>
+                        <outlet property="startButton" destination="ij4-4j-7Wm" id="AZi-P1-1ls"/>
+                        <outlet property="yellowLightView" destination="Xae-WE-SNo" id="GRL-a3-V1w"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
